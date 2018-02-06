@@ -1,0 +1,17 @@
+columns:[
+{
+allowNull:false,
+creationOrderIndex:0,
+dataType:-5,
+flags:2,
+name:"iddittasede"
+},
+{
+allowNull:false,
+creationOrderIndex:1,
+dataType:-5,
+name:"iddittacliente"
+}
+],
+name:"v_ditte_cliente2sede",
+tableType:0

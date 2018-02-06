@@ -1,0 +1,277 @@
+odd {
+	background-color: #FFFFFF;
+	color: #434343;
+}
+
+even {
+	background-color: #E8E8E8;
+	color: #434343;
+}
+
+.navigatornumber
+{
+display:none;
+}
+
+field
+{
+	background-color: #ffffff;
+	border-style: solid; 
+	font: 9px Arial,sans-serif; 
+	color: #333333; 
+	margin-left: 5px;	/* daniele: add some margin */
+	margin-right: 5px;
+	border-color: #AAAAAA;
+	border-width: 1px;
+	padding: 0px 0px 0px 2px;
+	/*background-color: #FFFFFF;
+	border-style: empty;
+	font: 11pt "Verdana";
+	text-align: left;
+	margin: 1px 1px 1px 1px;
+	*/
+}
+field.table
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 5px;
+	margin-right: 5px; /* add some margin for right aligned fields */
+	border-color : #AAAAAA; /* MODIFICA 18/09/2012 */
+}
+field.table_even
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 5px;
+	margin-right: 5px; /* add some margin for right aligned fields */
+	border-color : #AAAAAA; 
+	background-color: #FFFFFF;
+	color: #434343;
+}
+field.table_odd
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 5px;
+	margin-right: 5px; /* add some margin for right aligned fields */
+	border-color : #AAAAAA; 
+	background-color: #E8E8E8;
+	color: #434343;
+}
+field.table_tot
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	background-color : #bbbbbb !important; /* MODIFICA 18/09/2012 */
+    color : #FFFFFF !important;
+    font : bold 9px Arial,sans-serif;
+}
+field.table_cod
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	border-right-width : 2px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	background-color : #bbbbbb; /* MODIFICA 18/09/2012 */
+    color : #FFFFFF;
+    font : bold 9px Arial,sans-serif;
+}
+field.table_desc
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	background-color : #bbbbbb; /* MODIFICA 18/09/2012 */
+    color : #FFFFFF;
+    font : bold 9px Arial,sans-serif;
+}
+field.table_sat
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	background-color : #DADADA; /* MODIFICA 18/09/2012 */
+    color : #FFFFFF;
+    
+}
+field.table_sun
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	background-color : #A3A3A3; /* MODIFICA 18/09/2012 */
+    color : #FFFFFF;
+    /*font : bold 9px Arial,sans-serif;*/
+}
+field.table_fest
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	background-color : #AAAAAA; /* MODIFICA 18/09/2012 */
+    color : #FFFFFF;
+    /*font : bold 9px Arial,sans-serif;*/
+}
+field.table_riep
+{
+	border-top-width : 0px;
+	border-left-width : 2px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	/*background-color : #bbbbbb; /* MODIFICA 18/09/2012 */
+    color : #434343;
+    font : bold 9px Arial,sans-serif;
+}
+field.table_riep_first
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	/*background-color : #bbbbbb; /* MODIFICA 18/09/2012 */
+    color : #434343;
+    font : bold 9px Arial,sans-serif;
+}
+label
+{
+	/* color: #183128 ; */
+	color: #434343;
+	font:  8px Arial; 
+	font-weight: bold;
+	text-align: left;	
+	background-color: #EEEEEE;
+}
+label.table
+{
+	color: #434343;
+	background-color: #d0d0d0;
+	border-style: solid; 
+	/* border-color : #808080; - MODIFICA 30/07/2012 - #434343;*/
+	border-color : #AAAAAA; /* MODIFICA 18/09/2012 */
+	border-width: 0px 1px 1px 0px;
+	padding: 2px;
+}
+label.table_header
+{
+	color: #434343;
+	background-color: #d0d0d0;
+	border-style: solid; 
+	border-color : #AAAAAA; /* MODIFICA 30/07/2012 - #434343;*/
+	border-width: 1px 1px 1px 0px;
+	padding:2px;
+}
+label.table_header_riep
+{
+	color: #434343;
+	background-color: #d0d0d0;
+	border-style: solid; 
+	border-color : #AAAAAA; /* MODIFICA 30/07/2012 - #434343;*/
+	border-width: 1px 1px 1px 2px;
+	padding:2px;
+}
+label.table_tot
+{
+	border-top-width : 0px;
+	border-left-width : 0px;
+	margin-left : 2px;
+	padding-left: 2px;
+	margin-right: 2px; /* add some margin for right aligned fields */
+	background-color: #FFFFFF;
+	color: #434343;
+    font : bold 9px Arial,sans-serif;
+}
+label.copertura_si
+{
+	background-color: green;
+	border-style: solid; 
+	border-color : #434343; 
+	border-width: 0.25px 0.25px 0.25px 0.25px;
+}
+label.copertura_no
+{
+	background-color: white;
+	border-style: solid; 
+	border-color : #434343; 
+	border-width: 0.25px 0.25px 0.25px 0.25px;
+}
+label.copertura_riposo
+{
+	background-color: gray;
+	border-style: solid; 
+	border-color : #434343; /* MODIFICA 30/07/2012 - #434343;*/
+	border-width: 0.25px 0.25px 0.25px 0.25px;
+}
+label.copertura_tot_ore
+{
+	background-color: #bbbbbb;
+	color : #FFFFFF;
+	border-style: solid; 
+	border-color : #434343; 
+	border-width: 0.25px 0.25px 0.25px 0.25px;
+}
+check
+{
+	background-color: #eeeeee;
+	border-style: none;
+	font: bold 10pt "Verdana";
+}
+radio
+{
+	background-color: #dddddd;
+	border-style: none;
+	font: bold 10pt "Verdana";
+}
+combobox
+{
+	color: #0000ff;
+	font: italic 10pt "Verdana";
+}
+portal
+{
+	background-color: #cccccc;
+	border-style: none;
+}
+tabpanel
+{
+	border-style: none;
+}
+tabpanel.disabled
+{
+	background-color: #aaaaaa;
+	opacity: 0.33;
+}
+form
+{
+	border-style: none;
+}
+
+label.mytext
+{
+	color: red;
+	border-style: solid;
+	vertical-align: middle;
+	font: bold italic 10pt Verdana;
+	border-width: 1px 1px 1px 1px;
+	border-color: #111111 #111111 #111111 #111111;
+	margin: 2px 2px 2px 2px;
+}
+button
+{
+	font: 10pt Verdana;
+}

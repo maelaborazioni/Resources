@@ -1,0 +1,566 @@
+/*
+ * Impostazioni globali
+ */
+
+/* Remove padding and margin from check labels */
+.radioCheckInput + label
+{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ 
+/* Remove border and title bar if undecorated */
+div.wicket-modal .w_undecorated div.w_caption
+{
+	display: none;
+}
+
+div.wicket-modal, textarea:focus, input:focus
+{
+	outline: 0;
+}
+
+div.wicket-modal div.w_caption
+{
+	background-color: #172983 !important;
+	color: #fff !important;
+}
+
+/*Styling the dialog close button*/
+div.wicket-modal div.w_blue a.w_close 
+{
+	background: url(/servoy-webclient/templates/psl/images/x-14.png) no-repeat !important;
+	position: absolute;
+	right: 10px;
+}
+
+div.tabs
+{
+	background-color: #fff;
+}
+
+div.tabs div.disabled_tab a
+{
+	background-color: #ededed;
+	cursor: not-allowed;
+}
+
+div.tabs div.disabled_tab a span
+{
+	color: #bbb !important;
+	font-style: normal !important;
+}
+
+div.hidden
+{
+	visibility: hidden;
+}
+
+/* Set opacity for elements which request it on hover */
+.fade-on-hover img
+{
+	opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+.fade-on-hover img:hover
+{
+	opacity: 1;
+    filter: alpha(opacity=1); /* For IE8 and earlier */
+}
+
+/**
+ * Impostazioni input
+ */
+
+/* Remove focus from inputs */
+.nofocus
+{
+	outline: none;
+}
+
+/* Overrides servoy default 10px padding */
+select.selection
+{
+	padding: 5px !important;
+}
+
+/**
+ * Menu 
+ */
+div.section-selected
+{
+	color: #E2007A !important;
+}
+
+/**
+ * Calendario elaborazione presenze
+ */ 
+div.day-tab
+{
+	border: 1px solid #ccc !important;
+	background-color: #fff !important;
+}
+
+div.day-header
+{
+	border: 1px solid #ccc !important;
+	font-weight: normal !important;
+	font-size: 13px !important;
+}
+
+div.day-tab div.date
+{
+	font-size: 14px !important;
+	font-weight: normal !important;
+}
+
+div.day-tab .radioCheckField
+{
+	padding: 0 !important;
+	border: 0 !important;
+}
+
+div.covered-by-certificate div.label span
+{
+	background: url("/servoy-webclient/mediafolder?id=blue/doc.png&s=PresenzaSempliceLite&option=14&w=16&h=16") 20px 0px no-repeat !important;
+}
+
+/**
+ * Eventi disabilitati
+ */
+div.day-not-selectable,
+div.day-edit-disabled ul.events-list
+{
+	color: #ababab !important;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+div.day-disabled ul.events-list li	/*(0,0,2,3)*/
+{
+	cursor: not-allowed !important;
+}
+
+/** Giorni disabilitati */
+div.day-tab.day-tab-disabled div.date
+{
+	font-weight: normal !important;
+	color: #ababab !important;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+/** Giorni selezionati */
+ div.day-selected
+{
+	background-color: #eee !important;
+}
+
+div.day-selectable
+{
+	background-color: #eee !important;
+}
+
+/* div.row-even div.day-selectable
+{
+	background-color: #efefef !important;
+}
+
+div.row-odd div.day-selectable
+{
+	background-color: #fff !important;
+} */
+
+/* div.day-tab-selected .icon
+{
+	color: #fff !important;
+} */
+
+/** Feste */
+div.day-tab-holiday div.date
+div.day-tab-holiday div.day.day-edit-disabled
+{
+	color: #E2007A !important;
+}
+
+/** Colorazione righe-colonne */
+/* div.row-even
+{
+	background-color: #fff !important;
+}
+
+div.row-odd
+{
+	background-color: #EFEFEF !important;
+} */
+
+div.col-odd,
+div.col-odd div.day,
+div.col-odd div.day-edit-disabled
+{
+	font-weight: bold !important;
+}
+
+div.col-even,
+div.col-even div.day,
+div.col-even div.day-edit-disabled
+{
+	font-weight: normal;
+}
+
+/** Weekend */
+div.day-header-sunday
+{
+	color: #999999 !important;
+}
+
+div.day-header-saturday
+{
+	color: #6f6f6f !important;
+}
+
+div.day-sunday div.date,
+div.day-sunday div.day-edit-disabled
+{
+	color: #999999 !important;
+}
+
+div.day-saturday div.date,
+div.day-saturday div.day-edit-disabled
+{
+	color: #6f6f6f !important;
+}
+
+/* div.day-saturday div.day-selected, 
+div.day-sunday div.day-selected
+{
+	color: #fff !important;
+}
+
+div.day-tab-holiday.day-tab-selected div.day
+{
+	color: #fff !important;
+} */
+
+/** Pannello ore lavorate */
+div.workhours
+{
+	font-family: 'PT Mono', monospace;
+	font-size: 12px !important;
+	padding: 0 5px !important;
+	margin: 0 2px !important;
+	text-align: right;
+	color: #2A3C9F;
+}
+
+/* div.workhours:hover
+{
+	opacity: 1;
+} */
+
+div.day-edit-disabled div.workhours, 
+div.day-tab-holiday.day-edit-disabled div.workhours
+{
+	color: #aaaaaa !important;
+}
+
+/* div.day-tab-holiday div.workhours
+{
+	color: #E2007A !important;
+} */
+
+/* div.day-tab-selected div.workhours
+{
+	color: white !important;
+} */
+
+/** Gestione eventi */
+li span.delete-event
+{
+	font-size: 9px;
+	height: inherit;
+	line-height: inherit;
+	display: inline-block;
+	float: left;
+	visibility: hidden;
+}
+
+div.events
+{
+	height: 100%;
+	overflow: hidden;
+}
+
+/* div.day-tab-holiday.day-tab-selected ul.events-list, 
+div.day-tab-selected ul.events-list
+{
+	color: #fff;
+} */
+
+ul.events-list
+{
+	width: 100%;
+	padding: 5px 0 0 0;
+	margin: 0;
+	font-family: 'PT Mono', monospace;
+	text-align: right;
+}
+
+ul.events-list li	/*(0,0,1,2)*/
+{
+	list-style: none;
+	font-size: 12px;
+	cursor: pointer;
+	
+	margin: 0 2px 1px 2px;
+	padding: 0 5px;
+
+	position: relative;
+	height: 15px;
+	line-height: 15px;
+	background-color: #2A3C9F;
+	color: #fff;
+	border-radius: 2px;
+}
+
+/* .day-tab-selected ul.events-list li.selected,
+.day-tab-selected ul.events-list li:hover
+{
+	background-color: #fff;
+	color: #434343;
+} */
+
+/* 1 */
+ul.events-list li.disabled
+{
+	cursor: not-allowed;
+}
+
+/* 2 */
+ul.events-list li:hover	/* (0,0,2,2) */
+{
+	background-color: #E2007A;
+	color: #fff;
+}
+
+div.day-tab-holiday ul.events-list
+{
+	color: #E2007A;
+}
+
+div.day-tab-holiday div.date
+{
+	color: #E2007A !important;
+}
+
+div.day-disabled ul.events-list li div.delete-event,
+ul.events-list li.disabled div.delete-event
+{
+	display: none;
+}
+
+/**
+ * Lookup
+ */
+.lkp-letter-selected
+{
+	background-color: #E2007A;
+	border: 0;
+	color: #fff;    
+	font-weight: bold;
+}
+
+/**
+ * Buttons
+ */ 
+.material-button
+ {
+	 background-color: #fff !important;
+	 color: #2A3C9F !important;
+	 font-size: 16px !important;
+	 text-transform: uppercase;
+	 border-bottom: 2px solid #ccc !important;
+	 border-radius: 4px !important;
+ }
+ 
+.material-button,
+.material-button span
+{
+	 cursor: pointer !important;
+}
+ 
+.material-button.material-button-primary
+ {
+	 background-color: #2A3C9F !important;
+	 color: #fff !important;
+}
+ 
+.material-button.material-button-flat
+{
+	 border: 0 !important;
+}
+ 
+.material-button.material-button-disabled span
+{
+	cursor: inherit !important;
+}
+
+.material-button.material-button-disabled,
+.material-button.material-button-disabled:hover
+{	
+	cursor: not-allowed !important;	
+	background-color: #eee !important;
+	color: #aaa !important;
+	
+	border-top: 1px solid #fff !important;
+}
+
+.icon-disabled .icon
+{
+	cursor: not-allowed !important;	
+	background-color: #eee !important;
+	color: #aaa !important;
+}
+
+.material-button-selected,
+.material-button:hover
+{
+	background-color: #2A3C9F !important;
+	color: #fff !important;
+	border-top: 0 !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+}
+
+.material-button-section img
+{
+	width: 32px;
+	height: 32px;
+}
+
+.material-button.material-button-float
+{
+	background-color: #2A3C9F !important;
+	color: #fff !important;
+	color: #fff !important;
+	border-radius: 50% !important;
+	padding: 0 !important;
+}
+
+/**
+ * Progress bar
+ */
+.progressbar
+{
+	width: 40px;
+	height: 40px;
+}
+
+.progressbar:hover,
+.progressbar-selected
+{
+	color: #fff !important;
+}
+
+.progressbar-text
+{
+	font-family: 'PT Sans Caption', Arial, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	color: #172983 !important;
+}
+
+.progressbar-selected .progressbar-text,
+.material-button:hover + .material-progressbar .progressbar-text,
+.material-button:hover + .menu-icon .icon
+{
+	color: #fff !important;
+}
+
+.progressbar-selected path,
+.material-button:hover + .material-progressbar .progressbar path
+{
+	stroke: #fff;
+}
+
+/**
+ * Info labels and panels
+ */
+.material-info
+{
+	padding: 10px !important;
+}
+
+/**
+ * Generic icons
+ */
+ .icon
+ {
+	 color: #172983;
+ }
+ 
+.icon-mini
+{
+	font-size: 14px !important;
+}
+ 
+.icon-tiny
+{
+	font-size: 18px !important;
+}
+ 
+.icon-small
+{
+	font-size: 24px !important;
+}
+
+.icon-medium
+{
+	font-size: 32px !important;
+}
+
+.icon-big
+{
+	font-size: 48px !important;
+}
+
+.button-icon:hover .icon,
+.icon.icon-selected
+{
+	color: #fff !important;
+}
+
+/**
+ * Checkboxes
+ */
+.material-checkbox .radioCheckInput
+{
+	/* visibility: hidden; */
+	display: none;
+}
+
+.material-checkbox tr
+{
+	height: 1px !important;
+}
+
+.material-checkbox td
+{
+	height: 100%;
+}
+
+.material-checkbox .radioCheckInput + label
+{
+	cursor: pointer !important;
+	display: block;
+	
+	margin: 0 !important;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+	padding: 20px 20px 20px 70px !important;
+	
+	height: 100% !important;
+	
+	font-size: 14px !important;
+	font-weight: bold !important;
+}

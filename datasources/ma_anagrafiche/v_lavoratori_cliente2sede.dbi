@@ -1,0 +1,17 @@
+columns:[
+{
+allowNull:false,
+creationOrderIndex:0,
+dataType:-5,
+flags:2,
+name:"idlavoratoresede"
+},
+{
+allowNull:false,
+creationOrderIndex:1,
+dataType:-5,
+name:"idlavoratorecliente"
+}
+],
+name:"v_lavoratori_cliente2sede",
+tableType:0

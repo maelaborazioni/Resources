@@ -1,0 +1,173 @@
+field
+{
+	background-color:#FFFFFF; 
+	border-style: solid;
+	border-width: 1px 0px 0px 1px;
+	border-color: #999999 #ffffff #ffffff #999999;
+	font-family: Tahoma, sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-align: left; 
+	margin: 1px 0px 0px 2px; 
+	vertical-align: top; 
+	font-weight: normal;
+}
+form.noborder
+{
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+
+}
+form.border
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+
+}
+field.table
+{
+	border-color: #AAAAAA;
+	border-width: 0px 0px 1px 0px;
+}
+checkbox.table
+{
+	border-color: #AAAAAA;
+	border-width: 0px 0px 1px 0px;
+	text-align: center; 
+}
+
+field.bold
+{
+	font-weight: bold;
+}
+
+field.noborder
+{
+	border-width: 0px 0px 0px 0px;
+	color: #4D4D4D;
+	vertical-align: text-bottom;
+    text-align: left;
+}
+checkbox.noborder
+{
+	border-width: 0px 0px 0px 0px;
+	color: #4D4D4D;
+	vertical-align: text-bottom;
+    text-align: left;
+}
+field.table
+{
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #869298;
+	margin: 0px 0px 0px 2px; 
+}
+
+button
+{
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	font-size: 8.5px;
+	color: #000000;
+}
+
+label.transparent 
+{
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	background-color: transparent; 
+	text-align: center;
+	vertical-align: middle;
+}
+label.table
+{
+	color: #FFFFFF;
+	/* background-color: #2B364A; */
+	font:  9px "Verdana"; 
+}
+label.field_table
+{
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	border-color: #869298;
+	margin: 0px;
+}
+tabpanel
+{
+	border-style: solid;
+	border-width: 0px;
+}
+tabpanel.border
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+}
+form
+{
+	background-color: #D4D0C8; 
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+}
+form.light
+{
+	background-color: #DDDDDD; 
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+
+}
+
+form.table
+{
+	background-color: #FFFFFF; 
+	border-style: solid;
+	border-color: #AAAAAA;
+	border-width: 1px 1px 1px 1px;
+}
+
+label
+{
+	visibility: visible;
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	font-size: 9.5px;
+	color: #333333;
+}
+label.black
+{
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	font-size: 8.5px;
+	color: #000000;
+}
+label.searchbar
+{
+	background-color: #e18000;
+}
+label.bold
+{
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	color: #ffffff;
+}
+label.programdtlbar
+{
+	background-color: #333333;
+}
+label.top_bg_security
+{
+	background-color: #2C3E50;
+}
+form selected {
+ background-color: #cccccc;
+}
+form odd {
+ background-color: #f0f0f0;
+}
+
+form even {
+ background-color: #FFFFFF;
+}

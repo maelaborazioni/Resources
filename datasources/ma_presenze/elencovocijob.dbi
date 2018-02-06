@@ -1,0 +1,11 @@
+columns:[
+{
+allowNull:false,
+creationOrderIndex:2,
+dataType:-9,
+length:50,
+name:"descrizione"
+}
+],
+name:"elencovocijob",
+tableType:0

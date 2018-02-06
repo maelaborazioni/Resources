@@ -1,0 +1,113 @@
+form
+{
+	border-width: 0px;
+	background-color: #DCDCDC;
+	font-family: arial,sans-serif;
+}
+label
+{
+	font-family: arial,sans-serif;
+	color: #333333 ;
+	font: 12px;
+}
+label.datebuttontext
+{
+	font-family: arial,sans-serif;
+	color: #FFFFFF ;
+	vertical-align: middle;
+	text-align: center;
+	font: 12px;
+	border-width: 0px;
+}
+label.datebuttontext_today
+{
+	font-family: arial,sans-serif;
+	color: white ;
+	vertical-align: middle;
+	text-align: center;
+	font: 12px;
+	border-width: 0px;
+}
+label.datebuttontext_disabled
+{
+	color: #797979;
+	vertical-align: middle;
+	text-align: center;
+	font: 12px;
+	font-family: arial,sans-serif;
+	border-width: 0px;
+}
+label.dayname
+{
+	color: #333333;
+	vertical-align: middle;
+	text-align: center;
+	font: 9px bold;
+	text-transform: uppercase;
+	font-family: arial,sans-serif;
+	border-width: 0px;
+}
+
+label.mese
+{
+	color: #454545;
+	vertical-align: middle;
+	text-align: center;
+	font: 12px bold;
+	text-transform: uppercase;
+	font-family: arial,sans-serif;
+	border-width: 0px;
+}
+
+label.weeknr
+{
+	color: #333333 ;
+	vertical-align: middle;
+	text-align: right;
+	font: 10px;
+	font-family: arial,sans-serif;
+	border-width: 0px;
+}
+label.buttonborder_currentvalue
+{
+	border-color: #333333;
+	border-width: 1px;
+	font-family: arial,sans-serif;
+}
+label.buttonborder_today
+{
+	border-color: #333333;
+	border-width: 1px;
+	font-family: arial,sans-serif;
+}
+label.buttonborder
+{
+	border-color: #434343;
+	border-width: 1px;
+	font-family: arial,sans-serif;
+}
+label.buttonborder_disabled
+{
+	border-color: #333333;
+	border-width: 1px;
+	font-family: arial,sans-serif;
+}
+label.buttonborder_right
+{
+	border-color: #333333;
+	border-width: 1px;
+	text-align: center;
+	color: #FFFFFF ;
+	font: 10px;
+	font-family: arial,sans-serif; 
+}
+label.buttonborder_left
+{
+	border-color: #333333;
+	border-width: 1px;
+	text-align: center;
+	color: #FFFFFF ;
+	font: 10px;
+	font-family: arial,sans-serif;
+}
+

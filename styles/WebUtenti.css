@@ -1,0 +1,69 @@
+.navigatornumber
+{
+display:none;
+}
+
+field
+{
+	background-color: #FFFFFF;
+	border-style: empty;
+	font: 11pt "Verdana";
+	text-align: left;
+	margin: 1px 1px 1px 1px;
+}
+label
+{
+	background-color: #FFFFFF;
+	border-style: empty;
+	font: 11pt "Verdana";
+	color: black;
+	text-align: left;
+	margin: 1px 1px 1px 1px;
+}
+check
+{
+	background-color: #eeeeee;
+	border-style: empty;
+	font: bold 10pt "Verdana";
+}
+radio
+{
+	background-color: #dddddd;
+	border-style: empty;
+	font: bold 10pt "Verdana";
+}
+combobox
+{
+	color: #0000ff;
+	font: italic 10pt "Verdana";
+}
+portal
+{
+	background-color: #cccccc;
+	border-style: empty;
+}
+tabpanel
+{
+
+	border-style: empty;
+}
+form
+{
+
+	border-style: empty;
+}
+
+label.mytext
+{
+	color: red;
+	border-style: solid;
+	vertical-align: middle;
+	font: bold italic 10pt Verdana;
+	border-width: 1px 1px 1px 1px;
+	border-color: #111111 #111111 #111111 #111111;
+	margin: 2px 2px 2px 2px;
+}
+button
+{
+	font: 10pt Verdana;
+}

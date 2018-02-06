@@ -1,0 +1,13 @@
+columns:[
+{
+allowNull:false,
+autoEnterSubType:0,
+autoEnterType:2,
+creationOrderIndex:0,
+dataType:5,
+flags:1,
+name:"anno"
+}
+],
+name:"tab_anno",
+tableType:0
