@@ -63,6 +63,12 @@ name:"fineorario"
 },
 {
 allowNull:true,
+creationOrderIndex:40,
+dataType:4,
+name:"fineorariofisso"
+},
+{
+allowNull:true,
 creationOrderIndex:8,
 dataType:4,
 name:"finepausa"
@@ -179,6 +185,12 @@ allowNull:true,
 creationOrderIndex:6,
 dataType:4,
 name:"inizioorario"
+},
+{
+allowNull:true,
+creationOrderIndex:39,
+dataType:4,
+name:"inizioorariofisso"
 },
 {
 allowNull:true,

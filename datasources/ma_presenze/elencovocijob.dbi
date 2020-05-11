@@ -1,6 +1,12 @@
 columns:[
 {
 allowNull:false,
+creationOrderIndex:0,
+dataType:4,
+name:"cod_contratto"
+},
+{
+allowNull:false,
 creationOrderIndex:2,
 dataType:-9,
 length:50,

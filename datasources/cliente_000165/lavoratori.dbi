@@ -219,6 +219,12 @@ dataType:-7,
 name:"areadirigenziale"
 },
 {
+allowNull:false,
+creationOrderIndex:45,
+dataType:-7,
+name:"assenzasostitutoimposta"
+},
+{
 allowNull:true,
 creationOrderIndex:34,
 dataType:-7,
